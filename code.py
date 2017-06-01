@@ -1,6 +1,9 @@
 #!/usr/bin/env python3.5
-file1 = 'names.txt'
-file2 = 'details.txt'
+''' This Script allows to take two input files and print to output the lines numbers from file2 
+	where the name in file1 is found 
+'''
+file1 = 'names.txt'   #names.txt and details.txt files are in same directory where script is running
+file2 = 'details.txt'   
 
 list1 = [x.strip() for x in open(file1,'r').readlines()]
 #print(list1)
